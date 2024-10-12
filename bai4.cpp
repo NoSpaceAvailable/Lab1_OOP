@@ -28,7 +28,7 @@ int main() {
     cout << "Nhập x: ";
     double x; cin >> x;
     double orig = x;
-    x = fmod(abs(x), 2 * M_PI);
+    x = fmod(abs(x), 2 * M_PI);    // đưa x về khoảng [0; 2pi]
     double tmp = 1.0;
 
     for (int i = 0; i < 100; ++i) {
