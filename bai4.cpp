@@ -28,7 +28,8 @@ int main() {
     cout << "Nhập x: ";
     double x; cin >> x;
     double orig = x;
-    x = fmod(abs(x), 2 * M_PI);    // đưa x về khoảng [0; 2pi]
+    bool isNegative = (x < 0);
+    x = fmod(abs(x), 2 * M_PI);     // đưa x về khoảng [0, 2 * pi]
     double tmp = 1.0;
 
     for (int i = 0; i < 100; ++i) {
@@ -37,7 +38,6 @@ int main() {
         if (i % 2 == 0) res += tmp;
         else res -= tmp;
     }
-
     cout << fixed << setprecision(5);
-    cout << "sin(" << orig << ") = " << res << '\n';
+    cout << "sin(" << orig << ") = " << (isNegative ? -res : res) << '\n';
 }
