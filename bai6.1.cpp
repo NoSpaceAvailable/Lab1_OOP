@@ -72,6 +72,13 @@ vector<int> KMPSearch(const vector<int>& A, const vector<int>& B) {
     return res;
 }
 
+/**
+ * Hàm main là hàm chính thực hiện gọi các hàm cần thiết để tìm kiếm mảng con A trong mảng B.
+ * - Đầu tiên nhập độ dài của mảng A và B.
+ * - Tiếp theo nhập các phần tử của mảng A và B.
+ * - Gọi hàm KMPSearch để tìm kiếm mảng con A trong mảng B.
+ * - In ra số lần xuất hiện và các vị trí xuất hiện của mảng con A trong mảng B.
+ */
 int main() {
     cout << "Nhập độ dài mảng A và B: ";
     cin >> a >> b;

@@ -612,6 +612,13 @@ void clear() {
     system("clear");
 }
 
+/**
+ * Hàm main làm các nhiệm vụ sau:
+ * - Khởi tạo vector sổ tiết kiệm
+ * - Khởi tạo lãi suất ngắn hạn và dài hạn
+ * - Hiển thị menu chương trình
+ * - Cho phép người dùng nhập và lựa chọn chức năng
+ */
 int main() {
     vector<SoTietKiem> stk;
     double laiSuatNganHan = 0.029;

@@ -326,6 +326,13 @@ ChuyenBay nhap() {
     return ChuyenBay {mcb, parse(tgb), nd, nD};
 }
 
+/** 
+ * Hàm main là hàm chính thực hiện gọi các hàm cần thiết để quản lí chuyến bay. Các công việc chính:
+ * - Khởi tạo vector chuyến bay.
+ * - Hiển thị menu chương trình.
+ * - Cho phép người dùng chọn chức năng.
+ * - Tùy vào chức năng người dùng chọn, gọi hàm tương ứng.
+ */
 int main() {
     vector<ChuyenBay> dscb;
     while (true) {

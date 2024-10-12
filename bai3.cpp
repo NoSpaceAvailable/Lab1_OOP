@@ -103,6 +103,13 @@ PhanSo thuong(PhanSo a, PhanSo b) {
     return rutGon(PhanSo {a.tuSo * b.mauSo, a.mauSo * b.tuSo});
 }
 
+/** 
+ * Hàm main làm các công việc sau:
+ * - Nhập 2 phân số
+ * - Kiểm tra mẫu số khác 0
+ * - Tính tổng, hiệu, tích, thương 2 phân số
+ * - In ra kết quả
+ */
 int main() {
     int a, b;
     cout << "Phân số 1: ";

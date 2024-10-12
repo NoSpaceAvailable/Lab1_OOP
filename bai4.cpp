@@ -17,6 +17,12 @@ double factorial(int n) {
     return res;
 }
 
+/**
+ * Hàm main làm các công việc sau:
+ * - Nhập số thực x
+ * - Tính sin(x) bằng chuỗi Taylor
+ * - In ra kết quả, độ chính xác đến 5 chữ số thập phân
+ */
 int main() {
     double res = 0;
     cout << "Nhập x: ";

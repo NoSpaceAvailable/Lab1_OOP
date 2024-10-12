@@ -50,6 +50,13 @@ void print(PhanSo ps) {
     }
 }
 
+/**
+ * Hàm main làm các công việc sau:
+ * - Nhập phân số
+ * - Kiểm tra mẫu số khác 0
+ * - Rút gọn phân số
+ * - In ra phân số sau khi rút gọn
+ */
 int main() {
     
     int a, b; 

@@ -79,6 +79,16 @@ bool eq(PhanSo a, PhanSo b){
     return a.tuSo * b.mauSo == b.tuSo * a.mauSo;
 }
 
+/**
+ * Hàm main làm các công việc sau:
+ * - Nhập phân số 1
+ * - Kiểm tra mẫu số khác 0
+ * - Rút gọn phân số 1
+ * - Nhập phân số 2
+ * - Kiểm tra mẫu số khác 0
+ * - Rút gọn phân số 2
+ * - So sánh 2 phân số và in ra phân số lớn nhất. Nếu bằng nhau thì in ra "Equal!"
+ */
 int main() {
     int a, b;
     cout << "Phân số 1: ";

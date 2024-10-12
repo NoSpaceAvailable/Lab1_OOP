@@ -144,6 +144,14 @@ void checkValid(Date datetime) {
     }
 }
 
+/**
+ * Hàm main làm các công việc sau:
+ * - Nhập ngày tháng năm
+ * - Kiểm tra ngày tháng năm có hợp lệ không
+ * - Tìm ngày tiếp theo của ngày tháng năm rồi in ra màn hình
+ * - Tìm ngày trước đó của ngày tháng năm rồi in ra màn hình
+ * - Tìm số ngày trong năm tính đến ngày tháng năm nhập vào rồi in ra màn hình
+ */
 int main() {
     Date datetime;
     cout << "Nhập ngày tháng năm (VD: 01 01 2001): ";

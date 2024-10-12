@@ -165,7 +165,7 @@ vector<HocSinh> danhSachHocSinhCoDiemToanThapNhat(vector<HocSinh> &hs, int size)
 }
 
 /**
- * Nhập thông tin học sinh.
+ * Nhập thông tin học sinh. Có kiểm tra tính hợp lệ của đầu vào.
  * @param hs Danh sách học sinh.
  * @param size Số lượng học sinh.
  */
@@ -227,6 +227,14 @@ void printMenu() {
     cout << "6. Thoát.\n";
 }
 
+/**
+ * Hàm main là hàm chính thực hiện gọi các hàm cần thiết để quản lí học sinh. Các công việc chính:
+ * - Nhập số lượng học sinh.
+ * - Nhập thông tin học sinh.
+ * - Hiển thị menu chương trình.
+ * - Cho phép người dùng chọn chức năng.
+ * - Tùy vào chức năng người dùng chọn, gọi hàm tương ứng.
+ */
 int main() {
     int n; cout << "Nhập số lượng học sinh: "; cin >> n;
     system("clear");
